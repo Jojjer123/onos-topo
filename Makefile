@@ -3,7 +3,8 @@ export GO111MODULE=on
 
 .PHONY: build
 
-ONOS_TOPO_VERSION := latest
+# ONOS_TOPO_VERSION := latest
+ONOS_TOPO_VERSION := v0.9.2
 ONOS_PROTOC_VERSION := v0.6.3
 
 build: # @HELP build the Go binaries and run all validations (default)
